@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T11:46:30.258Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lzKpDuGVy3wWalr3eTp5" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T15:06:44.607Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YfZZrL0ecN5OYxPuoQqG" version="16.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4063" dy="2377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1778" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -9,7 +9,7 @@
             <mxRectangle x="740" y="1870" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jNdyc2vnMrTo6YjB5sLs-3" value="+ type: ExternalAccountingPassportDocumentTypeEnum&#xa;+ series: string&#xa;+ number: int&#xa;+ issuedDate: DateTimeInterface&#xa;+ issuedBy: string&#xa;+ validUntil: DateTimeinterface;&#xa;+ photoInsertionDate: DateTimeInterface;&#xa;+ employee: EmployeeModel;&#xa;+ images: ImageModelCollection;&#xa;+ approved: ConfirmationEnum;&#xa;&#xa;&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jNdyc2vnMrTo6YjB5sLs-2" vertex="1">
+        <mxCell id="jNdyc2vnMrTo6YjB5sLs-3" value="+ type: ExternalAccountingPassportDocumentTypeEnum&#xa;+ series: ?string&#xa;+ number: int&#xa;+ issuedDate: ?DateTimeInterface&#xa;+ issuedBy: ?string&#xa;+ validUntil: ?DateTimeinterface;&#xa;+ photoInsertionDate: ?DateTimeInterface;&#xa;+ employee: EmployeeModel;&#xa;+ images: ImageModelCollection;&#xa;+ approved: ConfirmationEnum;&#xa;&#xa;&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jNdyc2vnMrTo6YjB5sLs-2" vertex="1">
           <mxGeometry y="26" width="460" height="194" as="geometry" />
         </mxCell>
         <mxCell id="jNdyc2vnMrTo6YjB5sLs-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="jNdyc2vnMrTo6YjB5sLs-2" vertex="1">
@@ -32,7 +32,7 @@
             <mxRectangle x="1970" y="920" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3lvFxV43IL27FloCC7F8-1" value="+ employee: EmployeeModel;&#xa;+ area: string;&#xa;+ region: string;&#xa;+ unit: string&#xa;+ street: string&#xa;+ house: number;&#xa;+ apartment: number;&#xa;+ corpus: string;&#xa;+ zipCode: number;&#xa;+ type: AddressTypeEnum;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3lvFxV43IL27FloCC7F8-0" vertex="1">
+        <mxCell id="3lvFxV43IL27FloCC7F8-1" value="+ employee: EmployeeModel;&#xa;+ area: string;&#xa;+ region: string;&#xa;+ city: ?string&#xa;+ settlement: ?string&#xa;+ street: string&#xa;+ house: number;&#xa;+ apartment: ?number;&#xa;+ corpus: ?string;&#xa;+ zipCode: number;&#xa;+ type: AddressTypeEnum;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3lvFxV43IL27FloCC7F8-0" vertex="1">
           <mxGeometry y="26" width="600" height="144" as="geometry" />
         </mxCell>
         <mxCell id="3lvFxV43IL27FloCC7F8-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="3lvFxV43IL27FloCC7F8-0" vertex="1">

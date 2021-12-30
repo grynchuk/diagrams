@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T11:45:03.152Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Gy2eSlXpLdpPW-oNkEGl" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T11:46:30.258Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lzKpDuGVy3wWalr3eTp5" version="16.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2031" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4063" dy="2377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="jNdyc2vnMrTo6YjB5sLs-2" value="PersonDocument" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" collapsed="1">
-          <mxGeometry x="740" y="1870" width="130" height="26" as="geometry">
-            <mxRectangle x="1095" y="430" width="460" height="284" as="alternateBounds" />
+        <mxCell id="jNdyc2vnMrTo6YjB5sLs-2" value="PersonDocument" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="350" y="1820" width="460" height="284" as="geometry">
+            <mxRectangle x="740" y="1870" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jNdyc2vnMrTo6YjB5sLs-3" value="+ type: ExternalAccountingPassportDocumentTypeEnum&#xa;+ series: string&#xa;+ number: int&#xa;+ issuedDate: DateTimeInterface&#xa;+ issuedBy: string&#xa;+ validUntil: DateTimeinterface;&#xa;+ photoInsertionDate: DateTimeInterface;&#xa;+ employee: EmployeeModel;&#xa;+ images: ImageModelCollection;&#xa;+ approved: ConfirmationEnum;&#xa;&#xa;&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jNdyc2vnMrTo6YjB5sLs-2" vertex="1">
-          <mxGeometry y="26" width="130" height="194" as="geometry" />
+          <mxGeometry y="26" width="460" height="194" as="geometry" />
         </mxCell>
         <mxCell id="jNdyc2vnMrTo6YjB5sLs-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="jNdyc2vnMrTo6YjB5sLs-2" vertex="1">
-          <mxGeometry y="220" width="130" height="18" as="geometry" />
+          <mxGeometry y="220" width="460" height="18" as="geometry" />
         </mxCell>
         <mxCell id="jNdyc2vnMrTo6YjB5sLs-5" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jNdyc2vnMrTo6YjB5sLs-2" vertex="1">
-          <mxGeometry y="238" width="130" height="46" as="geometry" />
+          <mxGeometry y="238" width="460" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jNdyc2vnMrTo6YjB5sLs-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;PersonalModelInterface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getEmployee(): EmployeeModel&lt;br&gt;+ getImages(): ImageModelCollection&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getApproved(): ConfirmationEnum&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setApproved(ConfirmationEnum $confirmation&lt;span&gt;): PersonalModelInterface&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="1590" width="410" height="110" as="geometry" />
@@ -73,7 +73,7 @@
           <mxGeometry x="410" y="778" width="470" height="90" as="geometry" />
         </mxCell>
         <mxCell id="giyvg8UXYSV1kOh0cT8f-0" value="PersonDocumentComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="1066" width="240" height="84" as="geometry">
+          <mxGeometry x="300" y="1066" width="240" height="44" as="geometry">
             <mxRectangle x="300" y="1066" width="420" height="202" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -87,8 +87,8 @@
           <mxGeometry y="108" width="240" height="94" as="geometry" />
         </mxCell>
         <mxCell id="giyvg8UXYSV1kOh0cT8f-4" value="AddressComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="1114" width="150" height="26" as="geometry">
-            <mxRectangle x="850" y="1040" width="470" height="210" as="alternateBounds" />
+          <mxGeometry x="700" y="1090" width="150" height="26" as="geometry">
+            <mxRectangle x="570" y="1032" width="470" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="giyvg8UXYSV1kOh0cT8f-5" value="+ repositoryInterface: RepositoryInterface" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="giyvg8UXYSV1kOh0cT8f-4">
